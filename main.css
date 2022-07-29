@@ -1,0 +1,211 @@
+@font-face {
+    font-family: ubuntu;
+    src: url("src/Ubuntu-Regular.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p,b,span {
+    color: #fff;
+}
+
+body {
+    background-color: #202124;
+    font-family: ubuntu;
+}
+
+i.fa {
+    color: #bb86fc;
+}
+
+hr {
+    margin: 0 auto;
+    border-color: #808080;
+    height: 1px;
+    width: 92%;
+}
+
+.hr2 {
+    margin: 0 auto;
+    border-color: #808080;
+    height: 1px;
+    width: 100%;
+}
+
+.current {
+    padding: 3px 5px;
+    background-color: #bb86fc;
+    border-radius: 5px;
+
+}
+
+.pb100 {
+    width: 100%;
+}
+
+.pb80 {
+    width: 80%;
+}
+
+.pb70 {
+    width: 70%;
+}
+
+.pb60 {
+    width: 60%;
+}
+
+.pb40 {
+    width: 40%;
+}
+
+.container {
+    width: 98%;
+    padding: 1%;
+}
+
+.left-side {
+    background-color: #303134;
+    display: inline-block;
+    width: 25%;
+    /* height: 750px; */
+    margin: 0.5%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+#profile-box {
+    position: relative;
+}
+
+#profile-box #profile-img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+
+#profile-box #profile-name {
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    padding: 2%;
+    font-size: 21px;
+}
+
+.right-side {
+    display: inline-block;
+    width: 72%;
+    margin: 0.5%;
+    height: 450px;
+}
+
+.right-side section {
+    background-color: #303134;
+    /* height: 250px; */
+    margin-bottom: 2%;
+    padding: 30px;
+}
+
+#description-box {
+    padding: 15px;
+}
+
+#description-box ul {
+    list-style: none;
+}
+
+#description-box ul li {
+    margin-bottom: 10px;
+}
+
+#description-box ul li span {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+#description-box ul li i {
+    color: #bb86fc;
+    font-size: 18px;
+}
+
+.aside-item {
+    padding: 15px;
+    margin: 5px 0 25px;
+}
+
+.item-title {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.skills-item {
+    margin-top: 15px;
+}
+
+.progress-box {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.progress-box .progress-bar {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    padding: 2px;
+    background-color: #bb86fc;
+    border-radius: 15px;
+}
+.head-title b {
+    font-size: 32px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.right-side-item {
+    color: #fff;
+}
+
+.right-side-item h3,
+.right-side-item h4,
+.right-side-item p {
+    margin: 18px 0px;
+}
+
+
+footer {
+    margin-top: 20px;
+    background-color: #bb86fc;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+footer a {
+    color: #fff;
+}
+@media only screen and (max-width:768px){
+    .left-side {   
+        display: block;
+        width: 98%;
+    }
+    .right-side {
+        display:block;
+        width: 99%;
+    }
+    footer{
+        display: none;
+    }
+}
